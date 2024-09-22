@@ -1,0 +1,5 @@
+sal = float(input('Coloque o seu salário aqui: R$ '))
+aumento = float(input('Coloque o aumento que seu salário receberá: R$'))
+salaum = sal + (sal * aumento / 100)
+print('Seu Salario antes do aumento de R${:.2f} será de: R${:.2f}'.format(sal, aumento))
+print('E apos o aumento será de: R${:.2f}'.format(salaum))
